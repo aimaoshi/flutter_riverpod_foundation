@@ -5,8 +5,8 @@ import 'package:flutter_riverpod_foundation/shared/i18n/i18n.dart';
 import 'package:flutter_riverpod_foundation/shared/i18n/locale_controller.dart';
 import 'package:flutter_riverpod_foundation/shared/ui/style/theme.dart';
 
-class KeempleFoundationApp extends ConsumerWidget {
-  const KeempleFoundationApp({super.key});
+class FlutterRiverpodFoundationApp extends ConsumerWidget {
+  const FlutterRiverpodFoundationApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

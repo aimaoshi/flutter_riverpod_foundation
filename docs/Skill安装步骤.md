@@ -1,7 +1,7 @@
 # 安装 flutter_riverpod_foundation Skill 步骤（小白版）
 
 这份文档讲的是**怎么把 `flutter_riverpod_foundation` 这个 skill 装进 AI Agent**，
-不是装 Flutter 项目。装好之后，Codex 写这个项目的代码时就会自动按 Keemple 基础框架的
+不是装 Flutter 项目。装好之后，Codex 写这个项目的代码时就会自动按 Flutter Riverpod Foundation 基础框架的
 规范来（Riverpod 状态、GoRouter 路由、feature-first 目录、i18n 全语言补齐等）。
 
 来源仓库（公开）：`https://github.com/aimaoshi/flutter_riverpod_foundation`
@@ -219,7 +219,7 @@ cp <仓库>/.agents/skills/flutter_riverpod_foundation/SKILL.md \
 
 如果你用 ArkCLI，也可以直接执行 `arkcli connect`，把 skill 安装/同步到本机检测到的所有 Agent。
 
-**✅ 成功的样子**：对应 Agent 新开会话后，能复述 Keemple 框架的规范。
+**✅ 成功的样子**：对应 Agent 新开会话后，能复述 Flutter Riverpod Foundation 框架的规范。
 **❌ 失败的样子和怎么办**：报「不认识这个 skill」→ 确认拷进了该 Agent 实际读取的目录（不同 Agent 目录不同），并重启该 Agent。
 
 ---

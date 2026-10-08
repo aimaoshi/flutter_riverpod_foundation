@@ -10,14 +10,14 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main() {
   testWidgets('opens the main shell home tab after startup', (tester) async {
     SharedPreferences.setMockInitialValues({
-      'foundation.test.display_name': 'Keemple',
+      'foundation.test.display_name': 'FlutterRiverpod',
     });
     final preferences = await SharedPreferences.getInstance();
 
     await tester.pumpWidget(
       ProviderScope(
         overrides: [sharedPreferencesProvider.overrideWithValue(preferences)],
-        child: const KeempleFoundationApp(),
+        child: const FlutterRiverpodFoundationApp(),
       ),
     );
 
@@ -26,7 +26,6 @@ void main() {
 
     await tester.pump(const Duration(seconds: 1));
     await tester.pumpAndSettle();
-
     // 启动后直接进入主界面，并默认选中首页。
     expect(find.byType(MainShellPage), findsOneWidget);
     expect(find.byType(HomePage), findsOneWidget);
@@ -38,7 +37,7 @@ void main() {
     );
 
     expect(find.text('基础框架测试页'), findsOneWidget);
-    expect(find.text('你好，Keemple'), findsOneWidget);
+    expect(find.text('你好，FlutterRiverpod'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('启动计数：1'),
       300,

@@ -11,14 +11,14 @@ void main() {
   });
 
   test('stores and decodes JSON values', () async {
-    await storage.setJson('profile', {'name': 'Keemple'});
+    await storage.setJson('profile', {'name': 'FlutterRiverpod'});
 
     final profile = storage.getJson<Map<String, dynamic>>(
       'profile',
       (json) => Map<String, dynamic>.from(json! as Map),
     );
 
-    expect(profile, {'name': 'Keemple'});
+    expect(profile, {'name': 'FlutterRiverpod'});
   });
 
   test('removes all keys that share a prefix', () async {

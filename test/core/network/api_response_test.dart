@@ -20,9 +20,9 @@ void main() {
   test('decodes the data field from a legacy response envelope', () {
     final response = ApiResponse.fromJson({
       'resultCode': 0,
-      'data': '{"name":"Keemple"}',
+      'data': '{"name":"FlutterRiverpod"}',
     });
 
-    expect(response.data, {'name': 'Keemple'});
+    expect(response.data, {'name': 'FlutterRiverpod'});
   });
 }

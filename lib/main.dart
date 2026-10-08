@@ -5,5 +5,5 @@ import 'package:flutter_riverpod_foundation/app/bootstrap/app_bootstrap.dart';
 Future<void> main() async {
   final bootstrap = await AppBootstrap.initialize();
 
-  runApp(bootstrap.buildRoot(const KeempleFoundationApp()));
+  runApp(bootstrap.buildRoot(const FlutterRiverpodFoundationApp()));
 }

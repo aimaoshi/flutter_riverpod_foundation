@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "flutter-riverpod-foundation",
   "version": "0.1.0",
-  "description": "Keemple Flutter Foundation conventions for Codex: Riverpod state, GoRouter navigation, AppBootstrap wiring, typed storage, i18n, and the bottom-navigation app shell.",
+  "description": "Flutter Riverpod Foundation conventions for Codex: Riverpod state, GoRouter navigation, AppBootstrap wiring, typed storage, i18n, and the bottom-navigation app shell.",
   "repository": "https://github.com/aimaoshi/flutter_riverpod_foundation",
   "license": "Apache-2.0"
 }

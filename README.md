@@ -1,6 +1,6 @@
 # flutter_riverpod_foundation
 
-Keemple Flutter foundation: Riverpod for state, GoRouter for navigation,
+Flutter Riverpod Foundation: Riverpod for state, GoRouter for navigation,
 `AppBootstrap` for startup wiring, typed storage, Dio networking, i18n, and a
 bottom-navigation app shell.
 

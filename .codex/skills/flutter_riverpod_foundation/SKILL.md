@@ -1,9 +1,9 @@
 ---
 name: flutter_riverpod_foundation
-description: Builds and evolves this Flutter project using Keemple Foundation conventions: Riverpod, GoRouter, AppBootstrap, typed storage, i18n, Dio networking, feature-first folders, and the bottom-navigation app shell. Use when adding foundation layers or new features in this repository.
+description: Builds and evolves this Flutter project using Flutter Riverpod Foundation conventions: Riverpod, GoRouter, AppBootstrap, typed storage, i18n, Dio networking, feature-first folders, and the bottom-navigation app shell. Use when adding foundation layers or new features in this repository.
 ---
 
-# Keemple Flutter Foundation
+# Flutter Riverpod Foundation
 
 Use the current repository as the source of truth. Preserve existing work and
 do not copy legacy GetX business code into this project.
@@ -81,7 +81,7 @@ Place locale keys, translation maps, and `LocaleController` in `shared/i18n`.
 
 - Every visible string gets a `LocaleKeys` entry and values in every locale.
 - Widgets read strings through `context.tr(LocaleKeys.someKey)`.
-- Key names stay snake_case and values keep the `keemple_txt_` prefix.
+- Key names stay snake_case and values keep the `demo_txt_` prefix.
 - Nothing detects missing translations, so add each new key to all locale files
   in `shared/i18n/locales/` in the same change.
 - The locale controller owns selection and persistence.

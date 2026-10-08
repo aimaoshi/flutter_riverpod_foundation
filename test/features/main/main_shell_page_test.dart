@@ -16,7 +16,7 @@ Future<void> _pumpAppToMainShell(WidgetTester tester) async {
   await tester.pumpWidget(
     ProviderScope(
       overrides: [sharedPreferencesProvider.overrideWithValue(preferences)],
-      child: const KeempleFoundationApp(),
+      child: const FlutterRiverpodFoundationApp(),
     ),
   );
 
