@@ -3,6 +3,30 @@
 Flutter Riverpod Foundation: Riverpod for state, GoRouter for navigation,
 `AppBootstrap` for startup wiring, typed storage, Dio networking, i18n, and a
 bottom-navigation app shell.
+---
+name: dart-build-cli-app
+description: 用于Dart/Flutter软件开发工程师，构建Dart命令行CLI应用。包含架构模式、入口结构、退出码、流路由、子进程创建；支持使用package:args做参数解析、CommandRunner、配置pubspec.yaml可执行文件、编译原生CLI二进制程序。适用于开发命令行工具、控制台工具、脚本开发。不用于Flutter UI组件、Web应用、独立HTTP后端服务开发。
+compatibility: Claude Code
+tags: dart, cli, flutter, commandline, developer-tool
+---
+# dart-build-cli-app
+## 概述
+本Skill面向软件开发工程师，指导AI完成Dart CLI命令行项目的搭建、代码编写、参数解析、子进程调用与二进制编译。
+
+## 触发条件
+当用户提出下面任意需求时，启用本Skill：
+- 需要新建Dart命令行应用
+- 编写Dart CLI工具、控制台脚本
+- 使用`package:args`、CommandRunner做命令参数解析
+- 配置pubspec.yaml，编译Dart原生可执行二进制文件
+- Dart代码处理exit code、子进程spawn、stdout/stderr流处理
+
+## 禁止场景
+本Skill**不适用**于：
+- Flutter UI界面组件开发
+- Web前端应用
+- Dart独立HTTP后端服务
+
 
 ## Using the project skills with Codex
 
