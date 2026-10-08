@@ -13,7 +13,7 @@ class KeempleFoundationApp extends ConsumerWidget {
     final locale = ref.watch(localeControllerProvider);
 
     return MaterialApp.router(
-      title: 'Keemple Foundation',
+      title: 'Flutter Riverpod Foundation',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,

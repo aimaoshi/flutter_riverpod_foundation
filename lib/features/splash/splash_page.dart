@@ -49,7 +49,7 @@ class _SplashPageState extends State<SplashPage> {
               ),
               const SizedBox(height: 24),
               Text(
-                'Keemple Foundation',
+                'Flutter Riverpod Foundation',
                 style: Theme.of(context).textTheme.headlineSmall,
               ),
               const SizedBox(height: 8),

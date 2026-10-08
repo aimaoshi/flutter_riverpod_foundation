@@ -106,7 +106,7 @@ class _HomePageState extends ConsumerState<HomePage> {
     final selectedLocale = ref.watch(localeControllerProvider);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Keemple Foundation')),
+      appBar: AppBar(title: const Text('Flutter Riverpod Foundation')),
       body: SafeArea(
         child: Padding(
           padding: layout.pagePadding,

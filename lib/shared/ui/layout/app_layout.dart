@@ -41,7 +41,7 @@ class AppLayout {
   bool get isCompact => screenWidth < 600;
   bool get isTablet => screenWidth >= 600;
 
-  /// Standard page padding for the Keemple Foundation UI.
+  /// Standard page padding for the Flutter Riverpod Foundation UI.
   EdgeInsets get pagePadding =>
       EdgeInsets.symmetric(horizontal: isCompact ? 24 : 40, vertical: 24);
 

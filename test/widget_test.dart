@@ -21,7 +21,7 @@ void main() {
       ),
     );
 
-    expect(find.text('Keemple Foundation'), findsOneWidget);
+    expect(find.text('Flutter Riverpod Foundation'), findsOneWidget);
     expect(find.text('正在初始化'), findsOneWidget);
 
     await tester.pump(const Duration(seconds: 1));
