@@ -1,11 +1,11 @@
 {
-  "name": "flutter_riverpod_foundation",
+  "name": "flutter-riverpod-foundation",
   "interface": {
     "displayName": "Flutter Riverpod Foundation"
   },
   "plugins": [
     {
-      "name": "flutter_riverpod_foundation",
+      "name": "flutter-riverpod-foundation",
       "source": {
         "source": "local",
         "path": "./.agents"
