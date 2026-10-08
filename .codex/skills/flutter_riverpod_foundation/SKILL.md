@@ -1,6 +1,7 @@
 ---
 name: flutter_riverpod_foundation
-description: Builds and evolves this Flutter project using Flutter Riverpod Foundation conventions: Riverpod, GoRouter, AppBootstrap, typed storage, i18n, Dio networking, feature-first folders, and the bottom-navigation app shell. Use when adding foundation layers or new features in this repository.
+description: >-
+  Flutter Riverpod Foundation conventions for building and extending this app baseline: Riverpod DI/state, GoRouter shell navigation, AppBootstrap startup, typed storage, i18n, and Dio networking. Use when adding foundation layers or features here; not for GetX-based projects.
 ---
 
 # Flutter Riverpod Foundation
