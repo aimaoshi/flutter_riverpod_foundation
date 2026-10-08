@@ -1,0 +1,11 @@
+export './locales/locale_en.dart';
+export './locales/locale_fr.dart';
+export './locales/locale_he.dart';
+export './locales/locale_ja.dart';
+export './locales/locale_pl.dart';
+export './locales/locale_vi.dart';
+export './locales/locale_zh.dart';
+export './locales/locale_zh_HK.dart';
+export './locales/locale_zh_TW.dart';
+export './locale_keys.dart';
+export './translation.dart';
